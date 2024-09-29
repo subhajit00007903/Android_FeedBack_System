@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "213298536114",
+    "firebase_url": "https://voting-bbb5b-default-rtdb.firebaseio.com",
+    "project_id": "voting-bbb5b",
+    "storage_bucket": "voting-bbb5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213298536114:android:b7b76f52988fc2aea273ab",
+        "android_client_info": {
+          "package_name": "com.example.feedbacksystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWjIFUbhf5rKdkbCI3n2yE8SjMlr5yuDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

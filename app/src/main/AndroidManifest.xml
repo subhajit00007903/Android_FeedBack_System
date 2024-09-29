@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FeedbackSystem"
+        tools:targetApi="31">
+
+        <!-- Set Landing_page as the launcher activity -->
+        <activity
+            android:name=".Landing_page"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activities for your app -->
+        <activity
+            android:name=".AdminDSRating"
+            android:exported="false" />
+        <activity
+            android:name=".AdminCSERating"
+            android:exported="false" />
+        <activity
+            android:name=".AdminITRating"
+            android:exported="false" />
+        <activity
+            android:name=".AdminCSBSRating"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDSAActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentITActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentCSEActivity"
+            android:exported="false" />
+        <activity
+            android:name=".student_department_selection"
+            android:exported="false" />
+        <activity
+            android:name=".DSActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CSEActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ITActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CSBSActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentCSBSActivity"
+            android:exported="false" />
+
+        <!-- MainActivity is no longer a launcher activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

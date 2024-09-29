@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/dept_background">
+
+
+    <TextView
+        android:id="@+id/chooseDepartmentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_your_department"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:layout_alignParentTop="true" />
+
+
+    <Button
+        android:id="@+id/buttonCSBS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/computer_science_and_business_systems"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="@drawable/gradient_background"
+        android:layout_below="@id/chooseDepartmentText"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+         />
+
+
+    <Button
+        android:id="@+id/buttonCSE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/computer_science_and_engineering"
+        android:textColor="@android:color/white"
+        android:background="@drawable/gradient_background"
+        android:textSize="16sp"
+        android:layout_below="@id/buttonCSBS"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+         />
+
+
+    <Button
+        android:id="@+id/buttonIT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/information_and_technology"
+        android:textColor="@android:color/white"
+        android:background="@drawable/gradient_background"
+        android:textSize="16sp"
+        android:layout_below="@id/buttonCSE"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+         />
+
+
+    <Button
+        android:id="@+id/buttonDSA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/data_science_and_analytics"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:background="@drawable/gradient_background"
+        android:layout_below="@id/buttonIT"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+         />
+
+</RelativeLayout>

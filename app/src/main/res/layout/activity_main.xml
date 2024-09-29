@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/toolbar_gradient"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/heritage_institute_of_technology"
+            android:textAlignment="center"
+            android:textColor="#FFD700"
+            android:textSize="24sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/adminCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="21dp">
+
+        <ImageButton
+            android:id="@+id/adminButton"
+            android:layout_width="match_parent"
+            android:layout_height="288dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/admin_content_description"
+            android:padding="60dp"
+            android:src="@drawable/img_1" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- CardView for Student Button -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/studentCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adminCard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="16dp">
+
+        <ImageButton
+            android:id="@+id/studentButton"
+            android:layout_width="match_parent"
+            android:layout_height="304dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/student_content_description"
+            android:padding="32dp"
+            android:src="@drawable/img" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

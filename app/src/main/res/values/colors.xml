@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="buttonColorAdd">#4CAF50</color>
+    <color name="buttonColorRemove">#F44336</color>
+    <color name="buttonColorShowAll">#FF9800</color>
+    <color name="textColorWhite">#FFFFFF</color>
+    <color name="textColorGray">#D3D3D3</color>
+
+
+
+
+
+</resources>

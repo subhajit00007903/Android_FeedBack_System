@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">feedback system</string>
+    <string name="admin_content_description">Admin</string>
+    <string name="student_content_description">Student</string>
+    <string name="add_teacher">Add Teacher</string>
+    <string name="remove_teacher">Remove Teacher</string>
+    <string name="show_all_data">Show All Data</string>
+    <string name="teacher_details">Please Enter Respected Teacher Name</string>
+    <string name="export_to_excel">Export to Excel</string>
+    <string name="share_ratings">Share Ratings</string>
+    <string name="heritage_institute_of_technology">"    Heritage Institute Of Technology"</string>
+    <string name="csbs">CSBS</string>
+    <string name="it">IT</string>
+    <string name="cse">CSE</string>
+    <string name="ds">DS</string>
+    <string name="show_csbs_ratings">Show CSBS Ratings</string>
+    <string name="show_it_ratings">Show IT Ratings</string>
+    <string name="show_cse_ratings">Show CSE Ratings</string>
+    <string name="show_ds_ratings">Show DS Ratings</string>
+    <string name="teacher_name">Teacher Name</string>
+    <string name="submit_rating">Submit Rating</string>
+    <string name="information_and_technology">Information And Technology</string>
+    <string name="data_science_and_analytics">Data Science And Analytics</string>
+    <string name="computer_science_and_engineering">Computer Science And Engineering</string>
+    <string name="computer_science_and_business_systems">Computer Science And Business Systems</string>
+    <string name="choose_your_department">Choose Your Department</string>
+    <string name="finish">Finish</string>
+    <string name="scroll_view_content_description">Scroll through the list of teachers</string>
+
+
+
+</resources>

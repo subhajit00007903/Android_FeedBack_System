@@ -1,0 +1,11 @@
+<!-- res/drawable/toolbar_gradient.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#D0A396"
+                android:endColor="#7DA3CA"
+                android:angle="180"/>
+        </shape>
+    </item>
+</layer-list>
